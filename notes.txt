@@ -1,0 +1,159 @@
+Intro to JavaScript:
+________________
+
+JS is a versatile, High-level Programming Language.
+
+web-development --- to enhance the experience of static pages.
+
+
+Features:
+____________
+
+Dynamically Typed language.
+
+
+Setting Up Development Environment.
+_____________________________________
+
+
+coding in VS code
+outputs in chrome console.
+
+
+
+Variables and Datatypes.
+_____________________________________
+
+
+Data types:
+____________
+
+Numeric
+String
+Boolean
+
+
+
+
+
+Numeric--->0,1,2,3,4..... -1,-2,-3...., 0.45.
+String---> "mekala", "naveen", "sushmitha", '^^#^&@*&#',
+Boolean---> True or False. 1 or 0.
+
+
+array--->  used to store a collection of data in same place. [, , , ,] adding: push(end),unshift(start). removing: pop(last),shift(first). Creating arrays: concat, slice. indexOf, includes. map, reduce, filter.
+
+
+functions---> functions are set of codes that can be reused again and again.
+
+objects
+
+undefined,
+
+null, NaN.
+
+Variables;
+________________
+
+var, let, const
+
+var, let---> values can be changed.
+const---> cannot be.
+
+
+Operators
+____________
+
+Arithmetic Operator:
+_____________________________________
+
+addition, "+"
+subtraction, "-"
+multiplication, *
+division, /
+quotient 
+remainder %
+
+Comparison Operator: true or false (1 or 0)
+_____________________________________
+
+greater than ">"
+less than "<"
+greater Equal ">="
+less equal "<="
+
+
+Logical Operator (boolean true or false)
+__________________
+
+
+And ---> All must be tru to result "true".or else it will result as false. (&&)
+Or ----> Any One Must Be True. (||)
+X-or ----> true for different values and false for same values (^)
+Not ---> true---> false, false--> true (!)
+
+
+for numbers(bitwise)---> &&-->&, ||--->|, !--->~
+
+
+loose equality "=="  considers only the values.
+Strict Equality "===" both values and datatypes.
+
+
+       2^0    2^1    2^2   2^3   2^4......
+
+9      1       0       0     1     1001
+                                    
+
+
+9       0      0       0      1     1000
+
+
+1001
+1000
+-----
+1000
+
+
+ 001100
+ 101101
+
+ 101101
+
+
+
+
+45--->  1      0      1     1     0     1    (101101)
+
+
+
+
+functions
+____________
+
+normal
+____________
+
+function name(){
+       // code
+}
+
+name()  now the above set of code will get executed.
+
+Expression 
+
+Arrow
+
+
+
+Returning Function.
+_____________________________________
+
+
+the function that returns any kinda value.  using keyword("return")
+
+Functions with parameter---> passing values while invoking.
+
+
+./---> siblings
+../
