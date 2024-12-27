@@ -155,5 +155,24 @@ the function that returns any kinda value.  using keyword("return")
 Functions with parameter---> passing values while invoking.
 
 
+
+Truthy Falsy
+__________________
+
+truthy:
+
+numbers except 0 (both negative and positive)
+Strings
+true
+non empty obj and array
+
+falsy:
+
+0
+false undefined
+null
+NaN
+
+
 ./---> siblings
 ../
