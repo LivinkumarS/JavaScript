@@ -1,46 +1,12 @@
-// Conditional Clauses
+const voter = prompt("Enter you age: ");
 
-function BMIcalculator(weight, height) {
-  if (height <= 2) {
-    return weight / (height * height);
-  } else {
-    return weight / (((height / 100) * height) / 100);
-  }
+
+// 24> vote and marriage 18> can vote, <18 can nothing
+
+if (voter < 18) {
+  console.log("Cannot Vote");
 }
 
-const weight = prompt("Your weight: ");
-const height = prompt("Your height: ");
-
-if (BMIcalculator(weight, height) < 18) {
-  console.log("Under Weight");
-} else if (BMIcalculator(weight, height) > 25) {
-  console.log("Over weightt");
-} else {
-  console.log("Correct Weight");
-}
-
-// Nested If
-
-
-if(true){
-  if(true){
-    //code
-  }
-}
-
-
-
-const a = 10;
-const b = "10";
-
-if (a == b) {
-  if (a === b) {
-    console.log("Welcome");  
-  } else {
-    console.log("Vanakkam");  
-  }
-} else if (a === b) {
-  console.log("Hello");
-} else {
-  console.log("hi");  
+else {
+  console.log("Can Vote");
 }
