@@ -174,5 +174,14 @@ null
 NaN
 
 
+Conditional Clauses
+_____________________________________
+
+if, else---> used to perform different actions based on different conditions.
+
+if( condition ){
+
+}
+
 ./---> siblings
 ../

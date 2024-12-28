@@ -1,27 +1,46 @@
-// Array (Map,reduce,filter)
+// Conditional Clauses
+
+function BMIcalculator(weight, height) {
+  if (height <= 2) {
+    return weight / (height * height);
+  } else {
+    return weight / (((height / 100) * height) / 100);
+  }
+}
+
+const weight = prompt("Your weight: ");
+const height = prompt("Your height: ");
+
+if (BMIcalculator(weight, height) < 18) {
+  console.log("Under Weight");
+} else if (BMIcalculator(weight, height) > 25) {
+  console.log("Over weightt");
+} else {
+  console.log("Correct Weight");
+}
+
+// Nested If
 
 
-// arr1.map((item,ind) => {
-  //   console.log(item);
-  //   console.log(ind);
-// });
-
-// filter function will return an array
-
-// const newArr= arr1.filter((item) => {
-//   return item;
-// });
-
-// console.log(newArr);
-
-// Reduce function
-
-let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// reduce((accumulator, item, index)=>{ return },initial value)
-
-const answer = arr1.reduce((accumulator, item) => {
-  return accumulator*item;
-}, 0);
+if(true){
+  if(true){
+    //code
+  }
+}
 
 
-console.log(answer);
+
+const a = 10;
+const b = "10";
+
+if (a == b) {
+  if (a === b) {
+    console.log("Welcome");  
+  } else {
+    console.log("Vanakkam");  
+  }
+} else if (a === b) {
+  console.log("Hello");
+} else {
+  console.log("hi");  
+}
