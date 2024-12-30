@@ -46,7 +46,7 @@ array--->  used to store a collection of data in same place. [, , , ,] adding: p
 
 functions---> functions are set of codes that can be reused again and again.
 
-objects
+objects -----> key: value. objects are used to store collections of data.
 
 undefined,
 
@@ -182,6 +182,38 @@ if, else---> used to perform different actions based on different conditions.
 if( condition ){
 
 }
+
+
+JSON--->JavaScript Object Notation.
+
+API <--------> Application (JSON)
+
+
+
+objects
+____________
+
+const obj={
+       key:value,
+       key2:value,
+}
+
+key==> String and unique
+value==> any data type(string,numbers,boolean, functions, obj,undefined.....)
+
+we can access the values using it's key.
+
+this
+____________
+
+this keyword refers to the object itself.
+
+
+loops
+_
+
+
+
 
 ./---> siblings
 ../
