@@ -1,7 +1,15 @@
-let a = 10;
+// leap year --- divided by 4, 2000, 1904
 
-console.log(Math.pow(a, 3)); //10 to the power of 3
-console.log(Math.round(45.6));
-console.log(Math.floor(45.6));
-console.log(Math.sqrt(65677));
-console.log(Math.floor(Math.random() * 10 + 1));
+let year = prompt("Year: ");
+
+if (year % 100 == 0) {
+  if (year % 400 == 0) {
+    console.log("Leap Year");
+  } else {
+    console.log("Non leap year");
+  }
+} else if (year % 4 == 0) {
+  console.log("Leap year");
+} else {
+  console.log("Non leap year");
+}
