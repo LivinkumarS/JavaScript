@@ -1,44 +1,14 @@
-//Undefined    //false   undefined===undefined
+// 24^ can vote and marriage
+// 18&18^ can only vote
+//below 18 cannot do anything
 
-//var a; //string
-//console.log(a);
+let age = prompt("Enter Your Current Age: ");
 
-// if(a===undefined){
-//   console.log("Undefined");
-// }
-// else{
-//   console.log("Defined");
-// }
-
-let arr = ["popcorn", "puff", "sweetcorn", null];
-
-// console.log(arr[6]);
-
-// Null   //false  Null===Null
-
-// let a = null;
-
-// if (a == null) {
-//   console.log("Null");
-// } else {
-//   console.log("Not Null");
-// }
-
-// let a=null;
-
-// console.log(arr[3]);
-
-//NaN (not-a-number)  Nan!==NaN
-
-// console.log("hi"-9);  //result NaN.
-
-let a="jbdsihfb"-0;
-
-console.log(a);
-
-
-if(isNaN(a)){
-  console.log("NaN");
+if(age>24){
+  console.log("Can Vote and Marriage");
+}else if(age>=18){
+  console.log("Can only Vote");
 }else{
-  console.log("Not NaN");
+  console.log("Cannot do anything");
+  
 }
