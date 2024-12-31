@@ -1,14 +1,7 @@
-// 24^ can vote and marriage
-// 18&18^ can only vote
-//below 18 cannot do anything
+let a = 10;
 
-let age = prompt("Enter Your Current Age: ");
-
-if(age>24){
-  console.log("Can Vote and Marriage");
-}else if(age>=18){
-  console.log("Can only Vote");
-}else{
-  console.log("Cannot do anything");
-  
-}
+console.log(Math.pow(a, 3)); //10 to the power of 3
+console.log(Math.round(45.6));
+console.log(Math.floor(45.6));
+console.log(Math.sqrt(65677));
+console.log(Math.floor(Math.random() * 10 + 1));
