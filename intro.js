@@ -1,78 +1,44 @@
-// Objects
+//Undefined    //false   undefined===undefined
 
-let arr = ["kavya", "priya", "parimala"];
+//var a; //string
+//console.log(a);
 
-// creating
+// if(a===undefined){
+//   console.log("Undefined");
+// }
+// else{
+//   console.log("Defined");
+// }
 
-let person1 = {
-  name: "ajith",
-  age: 51,
-  gender: "male",
-  role: "actor",
-  canVote: true,
-  printLastMovie: function () {
-    console.log("thunivu");
-  },
-  latestMovies: [
-    "thunivu",
-    "valimai",
-    "vivegam",
-    "good bad ugly",
-    "vidamuyarchi",
-  ],
-  movieRatings: {
-    thunivu: 6.5,
-    valimai: 3,
-    vivegam: 6.5,
-    ratedBy: {
-      person1: "mekala",
-      person2: "sushmitha",
-      person3: "naveen",
-      person4: "kamal",
-      person5: "livin",
-    },
-  },
-};
+let arr = ["popcorn", "puff", "sweetcorn", null];
 
-// console.log(person1["movieRatings"]["ratedBy"]["person5"]);
+// console.log(arr[6]);
 
-// Accessing
+// Null   //false  Null===Null
 
-//console.log(person1["role"]); // objName["keyvalue"]
-//console.log(person1.role); //objName.keyvalue
+// let a = null;
 
-//modifying and adding key values
+// if (a == null) {
+//   console.log("Null");
+// } else {
+//   console.log("Not Null");
+// }
 
-// person1.name="vijay"
-// person1.age=45
-// person1.noOfMovies=68
+// let a=null;
 
-// console.log(person1);
+// console.log(arr[3]);
 
-// Deleting Key values
+//NaN (not-a-number)  Nan!==NaN
 
-// delete person1.canVote
-// console.log(person1);
+// console.log("hi"-9);  //result NaN.
 
-// calling a function inside an object
+let a="jbdsihfb"-0;
 
-// person1.printLastMovie();
-
-// console.log(person1["latestMovies"][3]);
-
-// this keyword
-
-let objet1 = {
-  name: "kumar",
-  height: 5.5,
-  weight: 60,
-
-  printName: function () {        //recursion
-    console.log("hi");
-    this.printName();   
-  },
-  bmi: 22,
-};
+console.log(a);
 
 
-objet1.printName()
+if(isNaN(a)){
+  console.log("NaN");
+}else{
+  console.log("Not NaN");
+}

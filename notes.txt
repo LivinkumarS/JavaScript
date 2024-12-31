@@ -48,9 +48,10 @@ functions---> functions are set of codes that can be reused again and again.
 
 objects -----> key: value. objects are used to store collections of data.
 
-undefined,
+undefined,----> A variable that has been declared but not assigned a value.
 
-null, NaN.
+null---->  intentional absence.
+NaN.---> naot a  valid number --- NaN!==NaN
 
 Variables;
 ________________
@@ -81,6 +82,8 @@ greater than ">"
 less than "<"
 greater Equal ">="
 less equal "<="
+loose equiality  "=="
+strict equiality "==="
 
 
 Logical Operator (boolean true or false)
@@ -169,7 +172,8 @@ non empty obj and array
 falsy:
 
 0
-false undefined
+false
+undefined
 null
 NaN
 
@@ -211,6 +215,8 @@ this keyword refers to the object itself.
 
 loops
 _
+
+
 
 
 
