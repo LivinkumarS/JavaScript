@@ -217,6 +217,32 @@ loops
 _
 
 
+loop ---> executing the set of code repeatedly.
+
+For Loop---> when we know the number of iteration.
+
+for(init; condition; increment){
+
+}
+
+while loop---> when we don't know the number of iterations. (break keyword to stop the iteration)
+
+while(conition){
+
+}
+
+for in--->  used to iterate over the key values of both arr, obj.
+
+for( let key in obj(arr) ){
+
+}
+
+for of---> used to iterate over the values directly (works only in array)
+
+for( let value of arr ){
+
+}
+
 
 
 
